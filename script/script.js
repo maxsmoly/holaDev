@@ -10,11 +10,16 @@ let arr = ["false", "tree", "forest", "oak", "pine", "fir", "maple", "willow", "
 
 let spans = document.querySelectorAll('.word');
 
-for (let i = 0; i < spans.length; i++) {
-    spans[i].innerHTML = `<h2>${arr[Math.floor(Math.random() * arr.length)]}</h2>`;
 
+function random() {
+    for (let i = 0; i < spans.length; i++) {
+        spans[i].innerHTML = `<h2>${arr[Math.floor(Math.random() * arr.length)]}</h2>`;
+
+    }
 }
 
+setInterval(random, 2000);
+// random();
 console.log(arr);
 
 
