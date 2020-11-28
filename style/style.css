@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
 
 body {
-    margin: 0;
+    width: 100%;
+    margin: 0 auto;
     padding: 0;
     overflow: hidden;
     box-sizing: border-box;
@@ -88,7 +89,7 @@ input::-moz-focus-inner {
 .search {
     /* border: 2px solid green; */
     padding: 5px;
-    text-align: center;
+    /* text-align: center; */
     display: flex;
     justify-content: center;
 }
@@ -122,11 +123,12 @@ input[type~="text"] {
 
 .search_button {
     /* border: 2px solid green; */
-    width: 53px;
-    height: 53px;
+    width: 55px;
+    height: 55px;
     border-radius: 15px;
     border: none;
     background-color: #EE6056;
+    margin-bottom: 20px;
 }
 
 #pop {
@@ -194,4 +196,52 @@ input[type~="text"] {
     background-image: url(../img/IMG_3600.JPG);
     background-position: center;
     background-size: cover;
+}
+
+#five_card {
+    background-image: url(../img/IMG_3600.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+#six_card {
+    background-image: url(../img/IMG_3600.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+#seven_card {
+    background-image: url(../img/IMG_3600.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+#eight_card {
+    background-image: url(../img/IMG_3600.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+#nine_card {
+    background-image: url(../img/IMG_3600.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+#ten_card {
+    background-image: url(../img/IMG_3600.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+.word {
+    text-align: center;
+    margin: 0 auto;
+    color: #ffff;
+}
+
+.trns_word {
+    text-align: center;
+    line-height: 10px;
+    color: #ffff;
 }
