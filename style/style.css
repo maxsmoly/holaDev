@@ -52,7 +52,7 @@ input::-moz-focus-inner {
     height: 70px;
     border-radius: 50px;
     margin-left: 10px;
-    background-image: url(/img/IMG_3600.JPG);
+    background-image: url(../img/IMG_3600.JPG);
     background-size: cover;
     background-position: center;
 }
@@ -131,15 +131,17 @@ input[type~="text"] {
 
 #pop {
     margin: 0;
+    padding-left: 10px;
     font-size: 18px;
     font-weight: 500;
 }
 
 .popular {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    /* flex-direction: column;
+    align-items: center; */
     /* display: flex;
     justify-content: space-around; */
 }
@@ -152,20 +154,44 @@ input[type~="text"] {
     border-radius: 15px;
 } */
 
-.next {
+/* .next {
     display: block;
     height: 40px;
     width: 150px;
 
     margin-top: 10px;
     border-radius: 15px;
-}
+} */
 
 .popular_card {
-    display: block;
     margin: 0 auto;
     border-radius: 15px;
-    border: 2px solid green;
-    width: 210px;
-    height: 210px;
+    /* border: 2px solid green; */
+    width: 125px;
+    height: 125px;
+    margin-top: 5px;
+}
+
+#one_card {
+    background-image: url(../img/IMG_3600.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+#two_card {
+    background-image: url(../img/IMG_3600.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+#three_card {
+    background-image: url(../img/IMG_3600.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+#four_card {
+    background-image: url(../img/IMG_3600.JPG);
+    background-position: center;
+    background-size: cover;
 }
