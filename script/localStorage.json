@@ -1,0 +1,435 @@
+[{
+    "page": {
+        "word": "page ",
+        "translate": " корневой элемент страницы"
+    },
+    "header": {
+        "word": "header ",
+        "translate": " шапка (страницы или элемента)"
+    },
+    "footer": {
+        "word": "footer ",
+        "translate": " подвал (страницы или элемента)"
+    },
+    "section ": {
+        "word": "section ",
+        "translate": " раздел контента (один из нескольких)"
+    },
+    "body ": {
+        "word": "body ",
+        "translate": " основная часть (страницы или элемента)"
+    },
+    "content ": {
+        "word": "content ",
+        "translate": " содержимое элемента"
+    },
+    "sidebar ": {
+        "word": "sidebar ",
+        "translate": " боковая колонка (страницы или элемента)"
+    },
+    "aside ": {
+        "word": "aside ",
+        "translate": " блок с дополнительной информацией"
+    },
+    "widget ": {
+        "word": "widget ",
+        "translate": " виджет, например, в боковой колонке"
+    },
+    "active, current ": {
+        "word": "active, current ",
+        "translate": " активный элемент, например, текущий пункт меню "
+    },
+    "hidden ": {
+        "word": "hidden ",
+        "translate": " скрытый элемент "
+    },
+    "error ": {
+        "word": "error ",
+        "translate": " статус ошибки "
+    },
+    "warning ": {
+        "word": "warning ",
+        "translate": " статус предупреждения "
+    },
+    "success ": {
+        "word": "success ",
+        "translate": " статус успешного выполнения задачи "
+    },
+    "pending ": {
+        "word": "pending ",
+        "translate": " состояние ожидания"
+    },
+    "phone, mobile ": {
+        "word": "phone, mobile ",
+        "translate": " мобильные устройства "
+    },
+    "phablet ": {
+        "word": "phablet ",
+        "translate": " телефоны с большим экраном (6-7″) "
+    },
+    "tablet ": {
+        "word": "tablet ",
+        "translate": " планшеты "
+    },
+    "notebook, laptop ": {
+        "word": "notebook, laptop ",
+        "translate": " ноутбуки "
+    },
+    "desktop ": {
+        "word": "desktop ",
+        "translate": " настольные компьютеры"
+    },
+    "image, img, picture, pic ": {
+        "word": "image, img, picture, pic ",
+        "translate": " картинка "
+    },
+    "icon ": {
+        "word": "icon ",
+        "translate": " иконка "
+    },
+    "logo ": {
+        "word": "logo ",
+        "translate": " логотип "
+    },
+    "userpic, avatar ": {
+        "word": "userpic, avatar ",
+        "translate": " юзерпик, маленькая картинка пользователя "
+    },
+    "thumbnail, thumb ": {
+        "word": "thumbnail, thumb ",
+        "translate": " миниатюра, уменьшенное изображение"
+    },
+    "list, items ": {
+        "word": "list, items ",
+        "translate": " список "
+    },
+    "item ": {
+        "word": "item ",
+        "translate": " элемент списка "
+    },
+    "title, subject, heading, headline, caption ": {
+        "word": "title, subject, heading, headline, caption ",
+        "translate": " заголовок "
+    },
+    "subtitle ": {
+        "word": "subtitle ",
+        "translate": " подзаголовок "
+    },
+    "slogan ": {
+        "word": "slogan ",
+        "translate": " слоган "
+    },
+    "lead, tagline ": {
+        "word": "lead, tagline ",
+        "translate": " лид-абзац в тексте "
+    },
+    "text ": {
+        "word": "text ",
+        "translate": " текстовый контент "
+    },
+    "desc ": {
+        "word": "desc ",
+        "translate": " описание, вариант текстового контента "
+    },
+    "excerpt ": {
+        "word": "excerpt ",
+        "translate": " отрывок текста, обычно используется перед ссылкой «Читать далее…» "
+    },
+    "link ": {
+        "word": "link ",
+        "translate": " ссылка "
+    },
+    "copyright, copy ": {
+        "word": "copyright, copy ",
+        "translate": " копирайт"
+    },
+    "meta ": {
+        "word": "meta ",
+        "translate": " блок с дополнительной информацией, например, блок тегов и даты в посте "
+    },
+    "cart, basket ": {
+        "word": "cart, basket ",
+        "translate": " корзина "
+    },
+    "breadcrumbs ": {
+        "word": "breadcrumbs ",
+        "translate": " навигационная цепочка, «хлебные крошки» "
+    },
+    "more, all ": {
+        "word": "more, all ",
+        "translate": " ссылка на полную информацию "
+    },
+    "modal ": {
+        "word": "modal ",
+        "translate": " модальное (диалоговое) окно "
+    },
+    "popup ": {
+        "word": "popup ",
+        "translate": " всплывающее окно "
+    },
+    "tooltip, tip ": {
+        "word": "tooltip, tip ",
+        "translate": " всплывающие подсказки "
+    },
+    "preview ": {
+        "word": "preview ",
+        "translate": " анонс, отрывок."
+    },
+    "Software ": {
+        "word": "Software ",
+        "translate": " программное обеспечение "
+    },
+    "Hardware ": {
+        "word": "Hardware ",
+        "translate": " аппаратное обеспечение "
+    },
+    "button, btn ": {
+        "word": "button, btn ",
+        "translate": " кнопка, например, для отправки формы "
+    },
+    "control ": {
+        "word": "control ",
+        "translate": " элемент управления "
+    },
+    "dropdown ": {
+        "word": "dropdown ",
+        "translate": " выпадающий список"
+    },
+    "wrapper, wrap ": {
+        "word": "wrapper, wrap ",
+        "translate": " обёртка, обычно внешняя "
+    },
+    "inner ": {
+        "word": "inner ",
+        "translate": " внутренняя обёртка "
+    },
+    "container, holder, box ": {
+        "word": "container, holder, box ",
+        "translate": " контейнер "
+    },
+    "grid": {
+        "word": "grid ",
+        "translate": " раскладка (страницы или элемента). "
+    },
+
+    "row ": {
+        "word": "row ",
+        "translate": " контейнер в виде строки "
+    },
+    "col, column ": {
+        "word": "col, column ",
+        "translate": " контейнер в виде столбца "
+    },
+    "packet ": {
+        "word": "packet ",
+        "translate": " пакет"
+    },
+    "patch cord ": {
+        "word": "patch cord ",
+        "translate": " коммутационный кабель, патч корд"
+    },
+    "router ": {
+        "word": "router ",
+        "translate": " маршрутизатор, роутер"
+    },
+    "search engine ": {
+        "word": "search engine ",
+        "translate": " поисковая система"
+    },
+    "subdomain ": {
+        "word": "subdomain ",
+        "translate": " поддомен, субдомен"
+    },
+    "switch ": {
+        "word": "switch ",
+        "translate": " коммутатор, свитч"
+    },
+    "website ": {
+        "word": "website ",
+        "translate": " веб сайт, веб узел"
+    },
+    "wireless network ": {
+        "word": "wireless network ",
+        "translate": " беспроводная сеть"
+    },
+    "bandwidth ": {
+        "word": "bandwidth ",
+        "translate": " пропускная способность (канала передачи данных)"
+    },
+    "broadband ": {
+        "word": "broadband ",
+        "translate": " широкополосный доступ в Интернет"
+    },
+    "debug ": {
+        "word": "debug ",
+        "translate": " отлаживать"
+    },
+    "decrypt ": {
+        "word": "decrypt ",
+        "translate": " расшифровывать"
+    },
+    "delete ": {
+        "word": "delete ",
+        "translate": " удалять"
+    },
+    "deploy ": {
+        "word": "deploy ",
+        "translate": " развертывать"
+    },
+    "develop ": {
+        "word": "develop ",
+        "translate": " разрабатывать"
+    },
+    "disable ": {
+        "word": "disable ",
+        "translate": " отключать, деактивировать"
+    },
+    "disconnect ": {
+        "word": "disconnect ",
+        "translate": " разъединять, отключаться"
+    },
+    "display ": {
+        "word": "display ",
+        "translate": " отображать"
+    },
+    "download ": {
+        "word": "download ",
+        "translate": " загружать, скачивать"
+    },
+    "bookmark ": {
+        "word": "bookmark ",
+        "translate": " закладка (в браузере) "
+    },
+    "bridge ": {
+        "word": "bridge ",
+        "translate": " мост "
+    },
+    "browser ": {
+        "word": "browser ",
+        "translate": " браузер, обозреватель "
+    },
+    "domain ": {
+        "word": "domain ",
+        "translate": " домен "
+    },
+    "firewall ": {
+        "word": "firewall ",
+        "translate": " брандмауэр, межсетевой экран "
+    },
+    "gateway ": {
+        "word": "gateway ",
+        "translate": " шлюз "
+    },
+    "hyperlink ": {
+        "word": "hyperlink ",
+        "translate": " гиперссылка "
+    },
+    "node ": {
+        "word": "node ",
+        "translate": " узел сети"
+    },
+    "compiler ": {
+        "word": "compiler ",
+        "translate": " компилятор "
+    },
+    "database ": {
+        "word": "database ",
+        "translate": " база данных "
+    },
+    "debugger ": {
+        "word": "debugger ",
+        "translate": " отладчик "
+    },
+    "desktop application/app ": {
+        "word": "desktop application/app ",
+        "translate": " приложение для настольного компьютера "
+    },
+    "device driver ": {
+        "word": "device driver ",
+        "translate": " драйвер устройства "
+    },
+    "graphical user interface (GUI) ": {
+        "word": "graphical user interface (GUI) ",
+        "translate": " графический пользовательский интерфейс "
+    },
+    "kernel ": {
+        "word": "kernel ",
+        "translate": " ядро (например, операционной системы) "
+    },
+    "mobile application/app ": {
+        "word": "mobile application/app ",
+        "translate": " мобильное приложение "
+    },
+    "plug-in (plugin)": {
+        "word": "plug-in (plugin)",
+        "translate": " плагин, расширение"
+    },
+    "programming language ": {
+        "word": "programming language ",
+        "translate": " язык программирования"
+    },
+    "bus ": {
+        "word": "bus ",
+        "translate": " шина "
+    },
+    "cable ": {
+        "word": "cable ",
+        "translate": " кабель "
+    },
+    "central processing unit (CPU) ": {
+        "word": "central processing unit (CPU) ",
+        "translate": " центральный процессор "
+    },
+    "computer case ": {
+        "word": "computer case ",
+        "translate": " корпус системного блока "
+    },
+    "device ": {
+        "word": "device ",
+        "translate": " устройство "
+    },
+    "fan ": {
+        "word": "fan ",
+        "translate": " вентилятор охлаждения, кулер "
+    },
+    "graphics card  ": {
+        "word": "graphics card  ",
+        "translate": " видеокарта (графический адаптер) "
+    },
+    "graphics processing unit (GPU) ": {
+        "word": "graphics processing unit (GPU) ",
+        "translate": " графический процессор "
+    },
+    "hard disk drive (HDD) ": {
+        "word": "hard disk drive (HDD) ",
+        "translate": " жесткий диск"
+    },
+    "eject ": {
+        "word": "eject ",
+        "translate": " извлекать "
+    },
+    "enable ": {
+        "word": "enable ",
+        "translate": " включать, активировать "
+    },
+    "encrypt ": {
+        "word": "encrypt ",
+        "translate": " шифровать, зашифровывать "
+    },
+    "execute ": {
+        "word": "execute ",
+        "translate": " исполнять "
+    },
+    "format ": {
+        "word": "format ",
+        "translate": " форматировать "
+    },
+    "implement ": {
+        "word": "implement ",
+        "translate": " внедрять, реализовывать "
+    },
+    "initialize ": {
+        "word": "initialize ",
+        "translate": " приводить в исходное состояние, инициализировать "
+    }
+}]

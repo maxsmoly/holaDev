@@ -24,12 +24,26 @@ input::-moz-focus-inner {
 
 .display_hello {
     display: block;
+
     /* display: none; */
 }
 
 .display_word {
     display: none;
+
     /* display: block; */
+}
+
+.favorite {
+    display: none;
+}
+
+.game {
+    display: none;
+}
+
+.addNew {
+    display: none;
 }
 
 
@@ -177,6 +191,10 @@ input[type~="text"] {
     width: 125px;
     height: 125px;
     margin-top: 5px;
+    background-image: url(../img/Cool\ Kids\ -\ Standing9.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .popular_card h2 {
@@ -194,62 +212,63 @@ input[type~="text"] {
 
 }
 
-#one_card {
+/* .popular_card {
     background-image: url(../img/Cool\ Kids\ -\ Standing.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     /* filter: blur(px); */
-}
+/* }
 
-#two_card {
+*/
+/* .popular_card {
     background-image: url(../img/Cool\ Kids\ -\ Standing1.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-#three_card {
+.popular_card {
     background-image: url(../img/Cool\ Kids\ -\ Standing2.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-#four_card {
+.popular_card {
     background-image: url(../img/Cool\ Kids\ -\ Standing3.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-#five_card {
+.popular_card {
     background-image: url(../img/Cool\ Kids\ -\ Standing4.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-#six_card {
+.popular_card {
     background-image: url(../img/Cool\ Kids\ -\ Standing5.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-#seven_card {
+.popular_card {
     background-image: url(../img/Cool\ Kids\ -\ Standing6.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-#eight_card {
+.popular_card {
     background-image: url(../img/Cool\ Kids\ -\ Standing7.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-}
+} */
 
 /* #nine_card {
     background-image: url(../img/IMG_3600.JPG);
@@ -355,7 +374,7 @@ input[type~="text"] {
 
 .word_trns {
 
-    border-radius: 35px 35px 0 0;
+    border-radius: 10px 10px 10px 10px;
     background-color: #E98F89;
 }
 
@@ -394,8 +413,8 @@ input[type~="text"] {
 }
 
 .word_btn {
-    margin-top: 10px;
-    padding: 50px 0 50px 0;
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
     background-color: #FAECB2;
 
     display: flex;
@@ -411,4 +430,46 @@ input[type~="text"] {
 
 .word_btn button svg:active {
     fill: #fff;
+}
+
+
+
+
+
+
+
+/* избранное  */
+
+
+
+.favorite_word {
+    /* border: 1px solid green; */
+    text-align: center;
+}
+
+
+
+/* игра */
+
+.game_word {
+    text-align: center;
+}
+
+.game_img {
+    height: 324px;
+    background-image: url(../img/Cool\ Kids\ -\ Standing.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.game_field {
+    margin-top: 50px;
+    text-align: center;
+    height: 100%;
+}
+
+.game_field button {
+    width: 40%;
+    height: 40%;
 }

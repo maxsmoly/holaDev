@@ -1,191 +1,209 @@
-// let a = document.getElementById("start").innerHTML = Math.floor(Math.random() * 100) + 1;
-// let b = document.getElementById("start_2").innerHTML = Math.floor(Math.random() * 100) + 1;
-// let arr = ["+", "-", "/", "*"];
-// let random = Math.floor(Math.random() * arr.length);
-// let c = document.getElementById("operator").innerHTML = arr[random];
-// console.log(a);
-let arr = ["false", "tree", "forest", "oak", "pine", "fir", "maple", "willow", "rain", "hot"];
-let helloAllcard = document.querySelectorAll(".word");
+let arr = [];
+
+function jsonSet(a, b) {
+    let serialObj = JSON.stringify(a);
+    localStorage.setItem(`${b}`, serialObj);
+    arr.push(b);
+}
+
+let good = {
+    word: "Good",
+    translate: "хороший, нормальный",
+    sentense: "I feel good",
+    trnSentense: "Я чувствую себя хорошо",
+    imgLink: "url(../img/Cool\ Kids\ -\ Standing5.png)"
+};
+
+jsonSet(good, good.word);
+
+let tree = {
+    word: "Tree",
+    translate: "дерево",
+    sentense: "I feel tree",
+    trnSentense: "Я чувствую себя дерево",
+    imgLink: "url(../img/Cool\ Kids\ -\ Standing7.png)"
+};
+
+jsonSet(tree, tree.word);
+
+let forest = {
+    word: "Forest",
+    translate: "лес",
+    sentense: "I feel forest",
+    trnSentense: "Я чувствую себя лес",
+    imgLink: "url(../img/Cool\ Kids\ -\ Standing2.png)"
+};
+
+jsonSet(forest, forest.word);
+
+let rain = {
+    word: "Rain",
+    translate: "дождь",
+    sentense: "I feel rain",
+    trnSentense: "Я чувствую себя дождь",
+    imgLink: "url(../img/Cool\ Kids\ -\ Standing1.png)"
+};
+
+jsonSet(rain, rain.word);
+
+let oak = {
+    word: "Oak",
+    translate: "дуб",
+    sentense: "I feel oak",
+    trnSentense: "Я чувствую себя дуб",
+    imgLink: "url(../img/Cool\ Kids\ -\ Standing5.png)"
+};
+
+jsonSet(oak, oak.word);
+
+let helloAllcard = document.querySelectorAll(".popular_card");
 
 function random() {
-    for (let i = 0; i < arr.length; i++) {
+    for (let i = 0; i < helloAllcard.length; i++) {
         helloAllcard[i].innerHTML = `<h2>${arr[Math.floor(Math.random() * arr.length)]}</h2>`;
     }
 }
-setTimeout(random, 0);
-setInterval(random, 1500);
+random();
+
+let a = document.querySelectorAll(".pop_word");
+
+function shoWord() {
+
+
+    alert(a.textContent);
+
+}
+
+
+
+
+
+
+for (let i = 0; i < helloAllcard.length; i++) {
+    helloAllcard[i].onclick = shoWord;
+}
+
+
+// let one_card = document.querySelector("#one_card");
+
+// function show() {}
+
+
+
+
+
+
+// console.log(one_card.textContent);
+
+
+
+// function show() {
+
+//     let returnObj = JSON.parse(localStorage.getItem("myKey")); //спарсим его обратно объект
+
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let display_word = document.querySelector(".display_word");
 let display_hello = document.querySelector(".display_hello");
+let favorite = document.querySelector(".favorite");
+let game = document.querySelector(".game");
+let addNew = document.querySelector(".addNew");
 
-function disp_word() {
+function dispAddnew() {
+    display_hello.style.display = "none";
+    display_word.style.display = "none";
+    favorite.style.display = "none";
+    game.style.display = "none";
+    addNew.style.display = "block";
+}
+let plusBtn = document.querySelectorAll(".plus");
+
+for (let i = 0; i < plusBtn.length; i++) {
+    plusBtn[i].onclick = dispAddnew;
+
+}
+
+// plusBtn.addEventListener("click", dispAddnew);
+
+function dispGame() {
+    display_hello.style.display = "none";
+    display_word.style.display = "none";
+    favorite.style.display = "none";
+    game.style.display = "block";
+    addNew.style.display = "none";
+}
+let gameBtn = document.querySelector(".game_btn");
+
+gameBtn.addEventListener("click", dispGame);
+
+function dispFavorite() {
+    display_hello.style.display = "none";
+    display_word.style.display = "none";
+    favorite.style.display = "block";
+    game.style.display = "none";
+    addNew.style.display = "none";
+}
+let favoriteBtn = document.querySelector(".elect");
+
+favoriteBtn.addEventListener("click", dispFavorite);
+
+
+function dispWord() {
     display_hello.style.display = "none";
     display_word.style.display = "block";
+    favorite.style.display = "none";
+    game.style.display = "none";
+    addNew.style.display = "none";
 }
+// let plusBtn = document.querySelector(".plus_hello");
 
-function disp_hello() {
-    display_word.style.display = "none";
+// plusBtn.addEventListener("click", dispAddnew);
+
+function dispHello() {
     display_hello.style.display = "block";
+    display_word.style.display = "none";
+    favorite.style.display = "none";
+    game.style.display = "none";
+    addNew.style.display = "none";
 }
 
 
-// function display_hello() {
+let homeBtn = document.querySelectorAll(".back");
+for (let i = 0; i < homeBtn.length; i++) {
+    homeBtn[i].onclick = dispHello;
+}
 
-//     a.style.display = none;
-//     b.style.display = block;
-// }
 
-let plus_btn = document.querySelector(".plus_hello");
-let home_btn = document.querySelector(".back");
+// homeBtn.addEventListener("click", dispHello);
 
-plus_btn.addEventListener("click", disp_word);
+let text = document.querySelector(".word_word");
+console.log(text.textContent);
 
-home_btn.addEventListener("click", disp_hello);
+function speak() {
 
+    speechSynthesis.speak(new SpeechSynthesisUtterance(text.textContent));
 
 
+}
+// speak();
 
-// function al() {
-//     alert("hjbjbjb");
-// };
+let soundBTN = document.querySelector(".sound");
 
-
-// function alert() {
-//     alert("hjbjbjb");
-// }
-// plus_btn.onclick = alert();
-// alert();
-// plus_btn.addEventListener("click", alert);
-
-// class Card {
-//     constructor(allCard, oneCard, oneWord) {
-//         this.allCard = allCard;
-//         this.oneCard = oneCard;
-//         this.oneWord = oneWord;
-//     }
-//     randomCard() {
-//         for (let i = 0; i < this.allCard.length; i++) {
-//             this.allCard[i].innerHTML = `<h2>${arr[Math.floor(Math.random() * arr.length)]}</h2>`;
-
-
-
-
-//         }
-//     }
-
-//     sayHello() {
-//         console.log(this.oneWord.textContent);
-//         for (let i = 0; i < arr.length; i++) {
-//             if (this.oneWord.textContent == arr[i] && this.oneCard.addEventListener("click", sayHello, true)) {
-//                 alert("ok");
-//             }
-//         }
-//     }
-
-//     // click() {
-//     //     this.oneCard.addEventListener("click", sayHello, true);
-//     // }
-// }
-
-
-
-// Card.randomCard();
-
-// let firstCard = new Card(document.querySelectorAll('.word'), document.querySelector("#one_card"), document.querySelector('#one_word'));
-// firstCard.randomCard();
-// firstCard.click();
-
-// console.log(firstCard.oneCard);
-
-// firstCard.addEventListener("click", firstCard.sayHello, true);
-
-// let spans = document.querySelectorAll('.word');
-// let span = document.querySelector('#one_word');
-
-// function random() {
-//     for (let i = 0; i < spans.length; i++) {
-//         spans[i].innerHTML = `<h2>${arr[Math.floor(Math.random() * arr.length)]}</h2>`;
-
-//     }
-// }
-
-// random();
-
-
-// let button = document.querySelector("#one_card");
-// button.addEventListener("click", sayHello, true);
-
-// function sayHello() {
-
-//     let a = span.textContent;
-
-//     for (let i = 0; i < arr.length; i++) {
-//         if (a == arr[i]) {
-//             alert("ok");
-//         }
-
-
-
-//     }
-// }
-
-
-// console.log(arr);
-
-
-
-// console.log(spans);
-
-
-
-
-
-
-
-
-
-
-
-
-// class Application {
-//     constructor(word) {
-//         this.word = word;
-// this.trns = trancelate;
-// this.sentence = sentence;
-// this.trnsSentence = tranceSentence;
-
-
-
-
-
-
-// published() {
-//     let a = document.querySelector(".word");
-// let b = document.querySelector(".trns_word");
-// let c = document.querySelector(".sentence");
-// let d = document.querySelector(".trans");
-// a.innerHTML = `<h2>${this.word}</h2>`;
-// b.innerHTML = this.trns;
-// c.innerHTML = this.sentence;
-// d.innerHTML = this.trnsSentence;
-
-// }
-
-// transSentense() {
-//     if (d.innerHTML == sentence) {
-//         d.innerHTML = tranceSentence;
-//     } else d.innerHTML = sentence;
-// }
-
-
-
-
-// }
-
-
-
-// let noTrue = new Application("False");
-
-// noTrue.published();
-// noTrue.transSentense();
-
-// console.log(noTrue);
+soundBTN.addEventListener("click", speak);
