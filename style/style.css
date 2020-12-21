@@ -488,3 +488,39 @@ input[type~="text"] {
     width: 40%;
     height: 40%;
 }
+
+.addNewinput {
+    display: flex;
+    justify-content: space-around;
+}
+
+.addNewWord {
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #E5E5E5;
+    /* caret-color: transparent; */
+    border: none;
+    margin-right: 10px;
+
+}
+
+.addNewTrns {
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #E5E5E5;
+    /* caret-color: transparent; */
+    border: none;
+    margin-right: 10px;
+}
+
+.saveNew {
+    font-weight: 700;
+    color: #fff;
+    width: 55px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: #EE6056;
+}
